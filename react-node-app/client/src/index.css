@@ -1,0 +1,112 @@
+html {
+  font-size: 22px;
+  /* Page Background & Fallback Color */
+  background-color: #49494B;
+  background-image: url('./background.jpg');
+  background-attachment: fixed;
+}
+
+h1 {
+  /* Adding Logo to Left of Header */
+  background-image: url("./logo.png");
+  background-position: top left;
+  background-repeat: no-repeat;
+  /* Header Structure on Page */
+  margin: 0;
+  padding-left: 80px;
+  /* Header Font */
+  font-family: 'Alfa Slab One', sans-serif;
+  font-size: calc(2rem + 2.5vw);
+  color: #000000;
+}
+
+body {
+  /* Body Structure on Page */
+  box-sizing: border-box;
+  width: 85%;
+  min-width: 600px;
+  margin: 0 auto;
+  /* Body Outline & Design */
+  padding: 0 20px 20px 20px;
+  background-color: #7A9D96;
+  /* Body Font */
+  font-family: 'Montserrat', Verdana, sans-serif;
+  color: #000000;
+}
+
+.intro {
+  padding: 0 40px 20px;
+}
+
+form {
+  /* Form Structure on Page */
+  width: 500px;
+  margin: 0 auto;
+  /* Form Outline */
+  padding: 1em;
+  border: 1px solid #CCCCCC;
+  border-radius: 1em;
+}
+
+ul {
+  /* Un-bulleted list, minimal whitespace */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+form li + li {
+  /* Adding vertical spacing between the input fields */
+  margin-top: 1em;
+}
+
+label {
+  /* Consistent blocks for labels, so the inputs line up */
+  display: inline-block;
+  width: 175px;
+  text-align: right;
+  padding: 0 10px 0 0;
+}
+
+input,
+select {
+  /* Input/Select Structure on Page */
+  box-sizing: border-box;
+  width: 300px;
+  /* Input/Select Outline */
+  border: 1px solid #999999;
+  /* Input/Select Font */
+  font-family: inherit;
+  font-size: inherit;
+}
+
+select {
+  appearance: menulist-button;
+}
+
+input:read-only {
+  /* Indicate that this input field is read-only */
+  background-color: #D3D3D3;
+  text-align: center;
+  cursor: not-allowed;
+}
+
+input:focus {
+  /* Additional highlight for focused elements */
+  border-color: #000000;
+}
+
+button {
+  /* Button Structure on Page */
+  box-sizing: border-box;
+  width: 100px;
+  margin: 1em 0 0 380px;
+  /* Button Outline */
+  border: 1px solid #999999;
+  border-radius: 5px;
+  /* Button Cursor Indication */
+  cursor:pointer;
+  /* Button Font */
+  font-family: inherit;
+  font-size: inherit;
+}
